@@ -22,7 +22,7 @@ setup(
     version='0.0.1',
     author='Mounika',
     author_email='mounikaedara05@gmail.com',
-    packages=find_packages(),  # <-- fixed here
+    packages=find_packages(), 
     install_requires=get_requirements('requirements.txt')
 )
 
